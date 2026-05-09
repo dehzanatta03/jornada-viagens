@@ -8,12 +8,13 @@
 
 
 :root{
+
+    --primary-color: #670D2F;
+    --secondary-color: #A53860;
+
     --background-primary-color: #ffffff;
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #000000;
-
-    --button-primary-color: #670D2F;
-    --button-secondary-color: #A53860;
 
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;

@@ -15,11 +15,15 @@ header{
     
 }
 
-.menu{
+.navigation-menu{
     width: 24px;
     height: auto;
     margin: 0;
     cursor: pointer;
+}
+
+input[type="checkbox"]:checked ~ nav{
+    display: block;
 }
 
 nav{

@@ -9,7 +9,8 @@
     color: var(--text-secondary-color);
     background-color:black;
     width: 312px;
-    height: 288px;
+    min-height: 288px;
+    height: auto;
     box-sizing: border-box;
     padding: 24px 16px;
     border-radius: 16px;

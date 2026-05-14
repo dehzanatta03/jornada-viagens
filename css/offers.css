@@ -34,6 +34,27 @@
     display: inline-block;
 }
 
+.card.italia{
+    background: url(../img/bg-italia-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.espanha{
+    background: url(../img/bg-espanha-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.canada{
+    background: url(../img/bg-canada-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card.rio-de-janeiro{
+    background: url(../img/bg-riodejaneiro-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+
 @media screen and (min-width: 1024px) {
     .card {
         width: 588px;

@@ -136,7 +136,7 @@
     }
 
     .card{
-    width: calc(50% - 12px) !important;        
+    width: calc(50% - 12px);        
     height: auto;          
     min-height: 288px;      
     box-sizing: border-box; 
@@ -171,7 +171,7 @@
     }
 
     .card {
-    width: 420px;
+    width:  586px;
     height: 308px;
     flex: none;
     }
@@ -190,12 +190,11 @@
     }
 
     .categories-cards{
-    max-width: 1320;
     flex-wrap: nowrap;
     }
 
     .categories-cards .card {
-    width: 281px;
+    width: 280px;
     height: 220px;
     padding: 0;
     box-sizing: border-box;
@@ -205,17 +204,3 @@
 
 }
     
-
-@media screen and (min-width: 1440px) {
-
-    .offers-cards{
-    width: 1250px;
-    margin: 0 auto;
-    }
-
-    .categories-cards .card {
-    width: 280px;
-    }
-
-    
-}

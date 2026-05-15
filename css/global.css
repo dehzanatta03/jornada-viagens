@@ -81,15 +81,13 @@ body{
 
 @media screen and (min-width: 1024px) {
 
-  .offers-section, 
-  .categories-section, 
+  .offers-cards, 
+  .categories-cards, 
   .popular-section {
     width: 100%;
-    max-width: 1200px;  /* Largura total do design do seu Figma */
-    margin: 0 auto;     /* Centraliza o bloco inteiro na tela do PC */
-    padding: 0 24px;    /* Margem de segurança nas laterais */
-    box-sizing: border-box;
-}
+    max-width: 1200px; 
+    margin: 0 auto;   
+  }
   
   .section-title h2{
     font-size: 38px;

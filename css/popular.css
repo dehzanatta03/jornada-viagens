@@ -72,6 +72,7 @@
 }
 
 @media screen and (min-width: 1024px) {
+
     .popular-card {
         width: 450px;
     }

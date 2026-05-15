@@ -1,3 +1,7 @@
+.section-title {
+    margin-top: 48px;
+}
+
 .popular-section{
     display: flex;
     flex-direction: column;
@@ -65,4 +69,28 @@
         border-radius: 8px;
     }
 
+}
+
+@media screen and (min-width: 1024px) {
+    .popular-card {
+        width: 450px;
+    }
+
+    .popular-card img{
+        width: 100%;
+        height: 320px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .popular-card .button{
+        width: 220px;
+        height: 48px;
+        font-size: 15px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 8px;
+    }
 }

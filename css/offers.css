@@ -195,7 +195,11 @@
     }
 
     .categories-cards .card {
-    width: 312px; 
+    width: 281px;
+    height: 220px;
+    padding: 0;
+    box-sizing: border-box;
+
     }
 
 

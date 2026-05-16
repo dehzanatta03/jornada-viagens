@@ -42,6 +42,7 @@ body{
   color: var(--text-primary-color);
 }
 
+
 .section-title h2{ 
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -79,6 +80,15 @@ body{
 }
 
 @media screen and (min-width: 1024px) {
+
+  .offers-cards, 
+  .categories-cards, 
+  .popular-section {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;   
+  }
+  
   .section-title h2{
     font-size: 38px;
   }

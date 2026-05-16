@@ -1,0 +1,119 @@
+.conditions{
+    max-width: 312px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.conditions h3{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    text-align: left;
+
+}
+
+.conditions p{
+    font-size: 20px;
+    font-weight: var(--text-weight);
+    line-height: 32px;
+    text-align: left;
+}
+
+.conditions .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+}
+
+.conditions .image-gallery .image.bag {
+    background: url(../img/bag.png) no-repeat center center;
+    background-size: cover;
+}
+
+.conditions .image-gallery .image.passport {
+    background: url(../img/passport.png) no-repeat center center;
+    background-size: cover;
+}
+
+.conditions .image-gallery .image.people {
+    background: url(../img/people.png) no-repeat center center;
+    background-size: cover;
+}
+
+.conditions .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .conditions {
+        max-width: 680px;
+        margin: 0 auto;
+    }
+
+    .conditions .image-gallery {
+        height: 580px;
+    }
+    
+    .conditions .image-gallery .image.bag {
+        background-image: url(../img/bag-tablet.png); 
+    }
+
+    .conditions .image-gallery .image.passport {
+        background-image: url(../img/passport-tablet.png); 
+    }
+
+    .conditions .image-gallery .image.people {
+        background-image: url(../img/people-tablet.png); 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .conditions {
+        display: grid;
+        max-width: 1200px;
+        margin: 64px auto 0 auto;
+        grid-template-columns: 350px 1fr;
+        grid-template-areas: 
+            "titulo titulo"
+            "texto galeria";
+        column-gap: 40px;
+        row-gap: 24px;
+        align-items: start;
+        padding-top: 0;
+    }
+
+    .conditions .section-title {
+        grid-area: titulo;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .conditions .text-content {
+        grid-area: texto;
+        max-width: 350px;
+        text-align: left;
+        margin: 0;
+    }
+
+    .conditions .image-gallery {
+        grid-area: galeria;
+        width: 100%;
+        height: 480px;
+        margin-top: 0;
+    }
+
+    .conditions .image-gallery .image.bag {
+        background-image: url(../img/bag-desktop.png);
+    }
+
+    .conditions .image-gallery .image.passport {
+        background-image: url(../img/passport-desktop.png);
+    }
+
+    .conditions .image-gallery .image.people {
+        background-image: url(../img/people-desktop.png);
+    }
+}

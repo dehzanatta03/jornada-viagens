@@ -290,7 +290,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: stretch; /* Garante que os 3 cards tenham a mesma altura */
+        align-items: flex-start;
         gap: 40px;
         margin: 48px auto 0 auto;
         width: 100%;
@@ -305,10 +305,6 @@
         font-size: 16px;
         line-height: 24px;
         margin: 0 0 24px 0;
-    }
-
-    .review-card .review-profile {
-        margin-top: auto; 
     }
 
     .review-profile img {

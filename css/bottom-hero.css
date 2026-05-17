@@ -1,0 +1,29 @@
+.bottom-hero {
+    width: 125%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.bottom-hero .bottom-hero-img {
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/bottom-hero-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .bottom-hero .bottom-hero-img {
+        background-image: url("../img/bottom-hero-tablet.png");
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .bottom-hero .bottom-hero-img {
+        height: 600px;
+        background-image: url("../img/bottom-hero-desktop.png");
+    }
+}
